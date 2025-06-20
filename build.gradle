@@ -1,0 +1,30 @@
+// File: build.gradle
+
+// Plugins add capabilities, like handling Java code
+plugins {
+    id 'java'
+    id 'application' // Makes it easy to run the app
+}
+
+// Where to find dependencies
+repositories {
+    mavenCentral()
+}
+
+// Your project's dependencies (libraries)
+dependencies {
+    // This is how you add Gson in Gradle
+    implementation 'com.google.code.gson:gson:2.10.1'
+}
+
+// Tell the application plugin which class has the main method
+application {
+    mainClass = 'Main'
+}
+
+// Use a modern Java version
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
+    }
+}

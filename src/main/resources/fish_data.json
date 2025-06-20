@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Rusty Anchovy",
+    "rarity": "COMMON",
+    "location": "Pier",
+    "catchWindows": [
+      { "startHour": 6, "endHour": 18 }
+    ]
+  },
+  {
+    "name": "Coral Snapper",
+    "rarity": "UNCOMMON",
+    "location": "Pier",
+    "catchWindows": [
+      { "startHour": 8, "endHour": 11 },
+      { "startHour": 16, "endHour": 19 }
+    ]
+  },
+  {
+    "name": "Mudskipper",
+    "rarity": "COMMON",
+    "location": "Workshop",
+    "catchWindows": [
+      { "startHour": 9, "endHour": 17 }
+    ]
+  },
+  {
+    "name": "Glowfin",
+    "rarity": "LEGENDARY",
+    "location": "Workshop",
+    "catchWindows": [
+      { "startHour": 12, "endHour": 13 }
+    ]
+  },
+  {
+    "name": "Lilypad Koi",
+    "rarity": "RARE",
+    "location": "Flower Shop",
+    "catchWindows": [
+      { "startHour": 7, "endHour": 12 }
+    ]
+  },
+  {
+    "name": "Moonlight Tetra",
+    "rarity": "RARE",
+    "location": "Flower Shop",
+    "catchWindows": [
+      { "startHour": 22, "endHour": 2 }
+    ]
+  },
+  {
+    "name": "Common Carp",
+    "rarity": "COMMON",
+    "location": "Workshop",
+    "catchWindows": [
+      { "startHour": 0, "endHour": 24 }
+    ]
+  }
+]
